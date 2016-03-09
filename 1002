@@ -1,0 +1,12 @@
+#include<stdio.h>
+# define pi 3.14159
+main()
+{
+
+   double R, A;
+   scanf("%lf", &R);
+   A = pi*R*R;
+   printf("A=%0.4lf\n", A);
+   return 0;
+
+   }
